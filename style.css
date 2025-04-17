@@ -1,0 +1,20 @@
+body {
+      background: #f0f0f0;
+      font-family: sans-serif;
+    }
+    .container {
+      background: #fff;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      overflow: hidden;
+    }
+    .box {
+      background: #bbb;
+      margin: 10px;
+    }
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
